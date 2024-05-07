@@ -1,0 +1,15 @@
+defaults:
+    - _self_
+    - method: optimize
+    - task: MMVP
+    - override hydra/job_logging: custom
+
+# hydra parameters
+hydra:
+    # sets level of all command line loggers to 'DEBUG'
+    verbose: False
+    job:
+        chdir: False
+
+# general parameters for all experiments
+gpu: 0

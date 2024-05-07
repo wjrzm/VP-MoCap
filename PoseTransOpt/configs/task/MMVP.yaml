@@ -1,0 +1,10 @@
+subject: 'S10'
+scene_rgbd: 'D:/Dataset/test/MMVP/template_scene_rgbd.npy'
+input_path_base: 'D:/Dataset/test/MMVP'
+thres_contact : 15
+
+image_width: 1280
+image_height: 720
+focal_length: 600
+scale: 0.97
+depth_scale: 2.25

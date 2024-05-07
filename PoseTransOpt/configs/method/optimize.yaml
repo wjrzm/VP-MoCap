@@ -1,0 +1,16 @@
+method: 'optimize'
+pose_filter: True
+kp_filter: True
+kp_score: True
+smpl_file: 'models/SMPL_NEUTRAL.pkl'
+
+max_iter: 2001
+lr: 0.01
+
+lambda_3d: 100
+lambda_timing: 200
+lambda_pose: 500
+
+lambda_2d_limbs: 1.5
+lambda_2d_feet: 2.0
+lambda_2d_others: 1.0
