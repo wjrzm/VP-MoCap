@@ -34,7 +34,7 @@ This repo introduces the VP-MoCap method which is used for foot contact inferenc
 
 ![pipeline](https://image.wjrzm.com/i/2024/05/07/w2kceq-2.png)
 
-Please refer to [FPP-Net](D:\Code\VP-MoCap\FPP-Net\README.md) and [PoseTransOpt](D:\Code\VP-MoCap\PoseTransOpt\README.md) for more details.
+Please refer to [FPP-Net](D:\Code\VP-MoCap\FPP-Net\README.md) and [PoseTransOpt](https://github.com/wjrzm/VP-MoCap/blob/main/PoseTransOpt/README.md) for more details.
 
 ## Citation
 
