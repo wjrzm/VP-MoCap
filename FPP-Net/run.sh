@@ -1,0 +1,1 @@
+python -m app.infer_smplcont --config configs/temporalKPSMPLCont_series5_mlp.yaml --batch_size 1 --num_threads 0 --gpus "1"

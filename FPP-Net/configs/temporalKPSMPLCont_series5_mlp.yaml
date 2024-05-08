@@ -1,0 +1,38 @@
+name: 'tempKPSMPL_series5_mlp'
+logdir: 'log/tempKPSMPL_series5_mlp'
+load_net_checkpoint: 'checkpoints/tempKPSMPL_series5_mlp/latest'
+checkpoint_path: 'checkpoints'
+result_path: 'results'
+
+trainer:
+  lr: 1e-4
+  epochs: 1410
+  num_train_epochs: 200
+  module: 'lib.Trainer.trainer_tempkpSMPLCont_mse'
+  path: 'lib/Trainer/trainer_tempkpSMPLCont.py'
+  w_press: 0.2
+  w_cont: 0.8
+
+dataset:
+  module: 'lib.Dataset.PressDataset.PED_tempKPCont'
+  path: 'lib/Dataset/PressDataset/PED_tempKPCont.py'
+  datadir: '/data1/shenghao/Tebu/MMVP_keypoints'
+  tv_fn: 'essentials/dataset_split_temporal5.npy'
+  img_res: 224
+  serial_batches: False
+  pin_memory: True
+  aug:
+    is_sam: False
+
+
+networks:
+  module: 'lib.Networks.TemporalKpSMPLNet_Series_mlp'
+  path: 'lib/Networks/TemporalKpSMPLNet_Series_mlp.py'
+  seqlen: 5
+
+
+
+record:
+  save_freq: 100
+  show_freq: 10000000
+  print_freq: 1
