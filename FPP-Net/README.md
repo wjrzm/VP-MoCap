@@ -18,7 +18,7 @@ This is the official implementation for FFP-Net (CVPR2024). For technical detail
     <a href='https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html' target='_blank'>Xun Cao</a><sup>3†</sup>
 </div>
 <div align='Center'>
-    <sup>1</sup>Nanjing University <sup>2</sup>Fudan University <sup>3</sup>Alibaba Group
+    <sup>1</sup>Beihang University <sup>2</sup>Tsinghua University <sup>3</sup>Nanjing University <sup>4</sup>Beijing Weilan Technology Co., Ltd.
 </div>
 <div align='Center'>
     <sup>*</sup>Equal Contribution

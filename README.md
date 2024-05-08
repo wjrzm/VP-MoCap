@@ -18,7 +18,7 @@
     <a href='https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html' target='_blank'>Xun Cao</a><sup>3†</sup>
 </div>
 <div align='Center'>
-    <sup>1</sup>Beihang University <sup>2</sup>Tsinghua  University <sup>3</sup>Nanjing University
+    <sup>1</sup>Beihang University <sup>2</sup>Tsinghua University <sup>3</sup>Nanjing University <sup>4</sup>Beijing Weilan Technology Co., Ltd.
 </div>
 <div align='Center'>
     <sup>*</sup>Equal Contribution
@@ -34,7 +34,7 @@ This repo introduces the VP-MoCap method which is used for foot contact inferenc
 
 ![pipeline](https://image.wjrzm.com/i/2024/05/07/w2kceq-2.png)
 
-Please refer to [FPP-Net](D:\Code\VP-MoCap\FPP-Net\README.md) and [PoseTransOpt](https://github.com/wjrzm/VP-MoCap/blob/main/PoseTransOpt/README.md) for more details.
+Please refer to [FPP-Net](https://github.com/wjrzm/VP-MoCap/blob/main/FPP-Net/README.md) and [PoseTransOpt](https://github.com/wjrzm/VP-MoCap/blob/main/PoseTransOpt/README.md) for more details.
 
 ## Citation
 
